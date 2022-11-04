@@ -1,0 +1,11 @@
+Typical TCP features:
+
+Three-way-handshake
+Sequence numbers - SYN should initially be randomized? Increment by the amount of data sent
+Acks
+Sliding window - send packets depending on
+Flags: SYN, ACK, FIN
+Check package corruption detection later on
+
+
+Input format: $ ./3700send <recv_host> <recv_port> - recv_host = domain name or IP, recv_port = UDP port
